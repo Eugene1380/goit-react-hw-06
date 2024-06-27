@@ -1,0 +1,17 @@
+.goBackBtn {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    padding: 5px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #fbfafa;
+    border: 1px solid transparent;
+    color: #1b1a1a;
+}
+
+.goBackBtn:hover {
+    border: 1px solid #1b1a1a;
+}
