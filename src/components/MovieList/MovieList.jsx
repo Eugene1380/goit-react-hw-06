@@ -11,9 +11,9 @@ export const MovieList = ({ films }) => {
         {films.map(({ id, title }) => {
         return (
             <GridItem key={id}>
-                <Link to={/movies/${id}`} state= { location }>
-                <h3>{title}</h3>
-                </Link>
+                <Link to={`/movies/${id}`} state= { location }>
+        <h3>{title}</h3>
+        </Link>
           </GridItem>
         );
       })}
