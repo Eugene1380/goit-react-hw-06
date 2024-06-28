@@ -1,0 +1,10 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+}
+.btnUpBox {
+  display: flex;
+  justify-content: right;
+}
